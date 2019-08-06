@@ -1,0 +1,1 @@
+standart settings for .vimrc
