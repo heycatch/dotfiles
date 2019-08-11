@@ -9,6 +9,10 @@ colorscheme gotham256
 let g:lightline = { 'colorscheme': 'gotham256'  }
 let g:gotham_airline_emphasised_insert = 0
 
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
 set hlsearch
 set incsearch
 
@@ -22,6 +26,8 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+Plugin 'https://github.com/ycm-core/YouCompleteMe'
+Plugin 'https://github.com/vim-syntastic/syntastic.git'
 Plugin 'https://github.com/ap/vim-css-color'
 Plugin 'whatyouhide/vim-gotham'
 Plugin 'terryma/vim-multiple-cursors'
@@ -34,3 +40,4 @@ Plugin 'VundleVim/Vundle.vim'
 
 call vundle#end()
 filetype plugin indent on
+
