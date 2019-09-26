@@ -15,7 +15,7 @@ set hlsearch
 set incsearch
 
 "code::stats
-let g:codestats_api_key = 'SFMyNTY.YVc1allYSnVZWFJwTUc0PSMjTVRrMk9BPT0.EFSHNc8umITC5_pRuYIYPyS4AspsQYVMuokaFt1PKKQ'
+let g:codestats_api_key = '---key her---'
 
 "mappings
 map <C-n> :NERDTreeToggle<CR>
@@ -27,17 +27,17 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-Plugin 'https://gitlab.com/code-stats/code-stats-vim.git'
-Plugin 'https://github.com/ycm-core/YouCompleteMe'
-Plugin 'https://github.com/vim-syntastic/syntastic.git'
-Plugin 'https://github.com/ap/vim-css-color'
+Plugin 'code-stats/code-stats-vim.git'
+Plugin 'ycm-core/YouCompleteMe'
+Plugin 'vim-syntastic/syntastic.git'
+Plugin 'ap/vim-css-color'
 Plugin 'whatyouhide/vim-gotham'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'w0rp/ale'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'vim-airline/vim-airline'
-Plugin 'https://github.com/jiangmiao/auto-pairs'
-Plugin 'https://github.com/scrooloose/nerdtree.git'
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'scrooloose/nerdtree.git'
 Plugin 'VundleVim/Vundle.vim'
 
 call vundle#end()
