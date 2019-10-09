@@ -15,7 +15,7 @@ set hlsearch
 set incsearch
 
 "code::stats
-let g:codestats_api_key = '---key her---'
+let g:codestats_api_key = 'API-KEY-HER'
 
 "mappings
 map <C-n> :NERDTreeToggle<CR>
@@ -28,7 +28,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'vbe0201/vimdiscord'
-Plugin 'code-stats/code-stats-vim.git'
+Plugin 'https://gitlab.com/code-stats/code-stats-vim.git'
 Plugin 'ycm-core/YouCompleteMe'
 Plugin 'vim-syntastic/syntastic.git'
 Plugin 'ap/vim-css-color'
