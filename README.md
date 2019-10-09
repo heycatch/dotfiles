@@ -17,3 +17,4 @@ my Arch:
 - remove or install discordplug.
 - colorscheme gotham or gotham256.
 - add codestat personal key.
+- change airline color.
