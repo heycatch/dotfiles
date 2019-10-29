@@ -14,6 +14,14 @@ set statusline+=%*
 set hlsearch
 set incsearch
 
+set encoding=utf-8
+
+set ffs=unix,dos,mac
+
+set nobackup
+set nowb
+set noswapfile
+
 "code::stats
 let g:codestats_api_key = 'API-KEY-HER'
 
