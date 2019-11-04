@@ -1,18 +1,10 @@
-minisettings for .vimrc
-=====================
-**my Debian:**
-- sudo apt install build-essential cmake python3-dev.
-- cd ~/.vim/bundle/YouCompleteMe.
-- python3 install.py --clang-completer.
+My linux mint.
+-> sudo apt install build-essential cmake python3-dev.
+-> cd ~/.vim/bundle/YouCompleteMe.
+-> python3 install.py --clang-completer.
 
-**my Arch:**
-- create ~/.vim/bundle.
-- git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-- sudo pacman -S cmake.
-- python3 install.py --clang-completer.
-
-**global settings:**
-- remove or install discordplug.
-- colorscheme gotham or gotham256.
-- add codestat personal key.
-- change airline color.
+Global settings.
+* remove or install discordplug.
+* colorscheme gotham | gotham256 or remove this theme.
+* add code::stat personal key.
+* change airline color.
