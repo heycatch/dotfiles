@@ -5,6 +5,8 @@ set tabstop=4
 set smarttab
 syntax on
 
+set spell spelllang=en
+
 colorscheme gotham256
 
 set statusline+=%#warningmsg#
