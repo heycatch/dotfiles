@@ -7,7 +7,7 @@ syntax on
 
 set spell spelllang=en
 
-colorscheme gotham256
+set t_Co=256
 
 set hlsearch
 set incsearch
@@ -21,7 +21,7 @@ set nowb
 set noswapfile
 
 "code::stats
-let g:codestats_api_key = 'API-KEY-HER'
+let g:codestats_api_key = 'KEY'
 
 "mappings
 map <C-n> :NERDTreeToggle<CR>
@@ -37,12 +37,8 @@ Plugin 'vbe0201/vimdiscord'
 Plugin 'https://gitlab.com/code-stats/code-stats-vim.git'
 Plugin 'ycm-core/YouCompleteMe'
 Plugin 'vim-syntastic/syntastic.git'
-Plugin 'ap/vim-css-color'
-Plugin 'whatyouhide/vim-gotham'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'w0rp/ale'
-Plugin 'vim-airline/vim-airline-themes'
-Plugin 'vim-airline/vim-airline'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'scrooloose/nerdtree.git'
 Plugin 'VundleVim/Vundle.vim'
