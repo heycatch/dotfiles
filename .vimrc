@@ -9,10 +9,6 @@ set spell spelllang=en
 
 colorscheme gotham256
 
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
 set hlsearch
 set incsearch
 
