@@ -8,6 +8,4 @@ For golang:
 
 Global settings.
 * remove or install discordplug.
-* colorscheme gotham | gotham256 or remove this theme.
 * add code::stat personal key.
-* change airline color.
