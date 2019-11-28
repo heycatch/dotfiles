@@ -6,8 +6,8 @@ For C-family languages:
 For golang:
 -> python3 install.py --go-completer.
 
-@Add windows gvim - vim.
-
 Global settings.
 * remove or install discordplug.
 * add code::stat personal key.
+
+@Add config for tmux.
