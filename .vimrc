@@ -33,6 +33,7 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+Plugin 'airblade/vim-gitgutter'
 Plugin 'vbe0201/vimdiscord'
 Plugin 'https://gitlab.com/code-stats/code-stats-vim.git'
 Plugin 'ycm-core/YouCompleteMe'
