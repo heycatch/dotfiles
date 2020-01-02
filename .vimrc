@@ -7,6 +7,7 @@ syntax on
 
 set spell spelllang=en
 
+set background=dark
 set t_Co=256
 
 set hlsearch
