@@ -5,8 +5,6 @@ set tabstop=4
 set smarttab
 syntax on
 
-set spell spelllang=en
-
 set background=dark
 set t_Co=256
 
@@ -34,6 +32,7 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+Plugin 'tpope/vim-surround'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'vbe0201/vimdiscord'
 Plugin 'https://gitlab.com/code-stats/code-stats-vim.git'
