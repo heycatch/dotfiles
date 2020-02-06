@@ -22,8 +22,8 @@ set noswapfile
 "code::stats
 let g:codestats_api_key = 'KEY'
 
-"mappings
-map <C-n> :NERDTreeToggle<CR>
+"nerdtree
+let NERDTreeShowHidden=1
 
 "VundleBundle
 set nocompatible
