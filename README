@@ -1,4 +1,4 @@
-My linux mint.
+My Mint - Ubuntu.
 -> sudo apt install build-essential cmake python3-dev.
 -> git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 -> cd ~/.vim/bundle/YouCompleteMe.
@@ -12,3 +12,12 @@ Global settings.
 * add code::stat personal key.
 
 @Add config for tmux.
+
+@Install zsh.
+-> sudo apt-get install zsh
+-> whereis zsh
+-> sudo usermod -s /usr/bin/zsh $(whoami)
+-> sudo reboot
+-> press number key 2 and ZSH create a new .zshrc
+-> git clone https://github.com/ohmyzsh/ohmyzsh
+-> sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
