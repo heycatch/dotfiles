@@ -1,4 +1,4 @@
-My Mint - Ubuntu.
+My Mint - Ubuntu
 -> sudo apt install build-essential cmake python3-dev.
 -> git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 -> cd ~/.vim/bundle/YouCompleteMe.
@@ -11,8 +11,8 @@ Global settings.
 * remove or install discordplug.
 * add code::stat personal key.
 
-@Add config for tmux - Mint.
--> hide error lines: 12, 18, 19, 20, 23, 24, 25, 28, 29, 30 on Ubuntu.
+@Add config for tmux - Mint, Ubuntu 16.04
+-> error lines: 12, 18, 19, 20, 23, 24, 25, 28, 29, 30 on Ubuntu version 18+
 
 @Install zsh.
 -> sudo apt-get install zsh
