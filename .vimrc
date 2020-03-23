@@ -1,29 +1,21 @@
-"other
-set number
+"settings
+syntax on
 set shiftwidth=4
 set tabstop=4
-set smarttab
-syntax on
-
+set number
+set expandtab
 set background=dark
 set t_Co=256
-
 set hlsearch
 set incsearch
-
 set encoding=utf-8
-
 set ffs=unix,dos,mac
-
 set nobackup
 set nowb
 set noswapfile
 
 "code::stats
 let g:codestats_api_key = 'KEY'
-
-"nerdtree
-let NERDTreeShowHidden=1
 
 "VundleBundle
 set nocompatible
@@ -34,13 +26,7 @@ call vundle#begin()
 
 Plugin 'tpope/vim-surround'
 Plugin 'airblade/vim-gitgutter'
-Plugin 'vbe0201/vimdiscord'
 Plugin 'https://gitlab.com/code-stats/code-stats-vim.git'
-Plugin 'ycm-core/YouCompleteMe'
-Plugin 'vim-syntastic/syntastic.git'
-Plugin 'terryma/vim-multiple-cursors'
-Plugin 'w0rp/ale'
-Plugin 'jiangmiao/auto-pairs'
 Plugin 'scrooloose/nerdtree.git'
 Plugin 'VundleVim/Vundle.vim'
 

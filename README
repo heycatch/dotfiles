@@ -1,21 +1,10 @@
-My Mint - Ubuntu
 [vim]
 -> sudo apt install build-essential cmake python3-dev.
 -> git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
--> cd ~/.vim/bundle/YouCompleteMe.
-For C-family languages:
--> python3 install.py --clang-completer.
-For golang:
--> python3 install.py --go-completer.
---------------------------------
-Global settings.
-* remove or install discordplug.
-* add code::stat personal key.
-
+---------------------------------
 [tmux]
 sudo apt install tmux
-@Add config for tmux - Mint, Ubuntu 16.04, 18.04
-
+---------------------------------
 [zsh]
 -> sudo apt install zsh
 -> whereis zsh
@@ -25,3 +14,11 @@ sudo apt install tmux
 -> git clone https://github.com/ohmyzsh/ohmyzsh
 -> cd ohmyzsh
 -> sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+--------------------------------
+[global settings]
+* add or remove code::stat personal key.
+* cd ~/.vim/bundle/YouCompleteMe:
+  For C-family languages:
+  -> python3 install.py --clang-completer.
+  For golang:
+  -> python3 install.py --go-completer.
