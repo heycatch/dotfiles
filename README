@@ -1,11 +1,13 @@
-[vim]
--> sudo apt install build-essential cmake python3-dev.
+vim:
+----
 -> git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
----------------------------------
-[tmux]
+================================
+tmux:
+-----
 sudo apt install tmux
----------------------------------
-[zsh]
+================================
+zsh:
+----
 -> sudo apt install zsh
 -> whereis zsh
 -> sudo usermod -s /usr/bin/zsh $(whoami)
@@ -14,11 +16,7 @@ sudo apt install tmux
 -> git clone https://github.com/ohmyzsh/ohmyzsh
 -> cd ohmyzsh
 -> sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
---------------------------------
-[global settings]
-* add or remove code::stat personal key.
-* cd ~/.vim/bundle/YouCompleteMe:
-  For C-family languages:
-  -> python3 install.py --clang-completer.
-  For golang:
-  -> python3 install.py --go-completer.
+================================
+global settings:
+----------------
+-> add or remove code::stat personal key
