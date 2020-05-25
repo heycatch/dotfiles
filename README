@@ -1,13 +1,16 @@
-vim:
-----
+*for quick installation*
+------------------------
+
+vim
+===
 -> git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-================================
-tmux:
------
+
+tmux
+====
 sudo apt install tmux
-================================
-zsh:
-----
+
+zsh
+===
 -> sudo apt install zsh
 -> whereis zsh
 -> sudo usermod -s /usr/bin/zsh $(whoami)
@@ -16,7 +19,3 @@ zsh:
 -> git clone https://github.com/ohmyzsh/ohmyzsh
 -> cd ohmyzsh
 -> sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-================================
-global settings:
-----------------
--> add or remove code::stat personal key
