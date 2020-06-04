@@ -1,21 +1,9 @@
-*for quick installation*
-------------------------
+[mini configuration]
+--------------------
+./install.sh
+============
 
-vim
-===
+[not forget]
+------------
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-
-tmux
-====
-sudo apt install tmux
-
-zsh
-===
--> sudo apt install zsh
--> whereis zsh
--> sudo usermod -s /usr/bin/zsh $(whoami)
--> sudo reboot
--> press number key 2 and ZSH create a new .zshrc
--> git clone https://github.com/ohmyzsh/ohmyzsh
--> cd ohmyzsh
--> sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+==============================================================================
