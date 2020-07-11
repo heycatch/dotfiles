@@ -1,19 +1,20 @@
 #!/bin/bash -e
 
 if [ $(which apt) ]; then
-  echo "checking git"
+  echo "Checking updates and git..."
+  sudo apt update
   sudo apt install git
   echo "Ok..."
 else
-  echo "Installing for only `apt` packages"
+  echo "Installing for only apt packages."
 fi
 
 
 echo "***************************************"
-echo "Cloning Vundle"
+echo "Cloning Vundle."
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-echo "Completed"
-echo "Launch vim and run `:PluginInstall` or `:h vundle` for docs"
+echo "Completed."
+echo "Launch vim and run :PluginInstall or :h vundle for docs."
 
 
 echo "***************************************"
@@ -23,9 +24,9 @@ case "$item" in
   y|Y) echo "Installing..."
     sudo apt install xmonad
     ;;
-  n|N) echo "Exit"
+  n|N) echo "Exit."
     exit 0
     ;;
-  *) echo "Performing the default action"
+  *) echo "Default == no, exit now."
     ;;
 esac
