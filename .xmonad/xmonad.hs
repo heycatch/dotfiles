@@ -14,3 +14,5 @@ xmonad $ defaultConfig
   , logHook = dynamicLogWithPP $ defaultPP { ppOutput = hPutStrLn xmproc, ppOrder = \(ws:_:t:_) -> [ws,t] }
   , borderWidth = 3
   }
+  `additionalKeys`
+  [ ((mod1Mask, xK_Shift_L), spawn "~/bin/layout_switch.sh") ]
