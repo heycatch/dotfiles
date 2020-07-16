@@ -15,4 +15,4 @@ xmonad $ defaultConfig
   , borderWidth = 3
   }
   `additionalKeys`
-  [ ((mod1Mask, xK_Shift_L), spawn "~/bin/layout_switch.sh") ]
+  [ ((mod1Mask, xK_Control_L), spawn "~/bin/layout_switch.sh") ]

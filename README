@@ -1,0 +1,22 @@
+`hotkeys for xmonad`
+
+mod == alt
+==========
+
+****
+mod+number(1-9) - switch to ~N desktop
+mod+shift+number(1-9) - move tge window to the ~N desktop
+mod+shift+enter - new terminal
+mod+p - dmenu
+mod+shift+c - close the current window
+mod+ctrl - switch language
+mod+j or mod+tab - swap the current window and the next
+mod+k - swap the current window and the previous one
+mod+lmb(left mouse button) - moving the window with the mouse
+mod+rmb(right mouse button) - resizing the window with the mouse
+mod+q - reboot xmonad
+****
+
+
+## recompile and restart
+xmonad --recompile && xmonad --restart
