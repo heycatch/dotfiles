@@ -5,7 +5,7 @@ mod == alt
 
 ****
 mod+number(1-9) - switch to ~N desktop
-mod+shift+number(1-9) - move tge window to the ~N desktop
+mod+shift+number(1-9) - move the window to the ~N desktop
 mod+shift+enter - new terminal
 mod+p - dmenu
 mod+shift+c - close the current window

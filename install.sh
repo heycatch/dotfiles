@@ -22,6 +22,8 @@ echo -n "Installing xmonad + dmenu? (y/n) "
 read item
 case "$item" in
   y|Y) echo "Installing..."
+    sudo apt install ghc
+    sudo apt install libx11-dev
     sudo apt install xmonad
     sudo apt install dmenu
     sudo sed -i s/dmenu/"dmenu -b"/2 /usr/bin/dmenu_run
