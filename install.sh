@@ -30,6 +30,10 @@ case "$item" in
     echo "Create bin folder and copy layout_switch.sh script"
     mkdir ~/bin/
     cp layout_switch.sh ~/bin/
+    echo "Installing xmonad libs"
+    sudo apt install cabal-install
+    sudo apt update
+    sudo cabal install xmonad-extras
     echo -e "\e[3mOk...\e[0m"
     ;;
   n|N) echo "Exit"

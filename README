@@ -3,6 +3,7 @@
 mod == alt
 ==========
 
+
 ****
 mod+number(1-9) - switch to ~N desktop
 mod+shift+number(1-9) - move the window to the ~N desktop
@@ -15,6 +16,8 @@ mod+k - swap the current window and the previous one
 mod+lmb(left mouse button) - moving the window with the mouse
 mod+rmb(right mouse button) - resizing the window with the mouse
 mod+q - reboot xmonad
+mod+F7 - -2 volume
+mod+F8 - +2 volume
 ****
 
 
