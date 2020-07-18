@@ -9,10 +9,12 @@ Config { font = "xft:Inconsolata:size=8"
                     , Run Date "%b %_d %H:%M" "date" 10
                     , Run StdinReader
                     , Run Kbd [("us", "US"), ("ru", "RU")]
-                    , Run Wireless "wlp3s0b1" [ "-t", "<essid>" ] 10
+                    , Run Wireless "wlp3s0b1" ["-t", "<essid>"] 10
+                    , Run Wireless "enp2s0f0" ["-t", "<essid>"] 10
+                    , Run Com "~/bin/get-volume.sh" [] "vol" 10
                     ]
        , sepChar = "%"
        , alignSep = "}{"
-       , template = "%StdinReader% }{ <fc=#ee9a00>%date%</fc> <fc=#ff0000>%kbd%</fc> | %battery%| <fc=#ee9a00>Wifi:%wlp3s0b1wi%</fc>"
+       , template = "%StdinReader% }{ <fc=#ee9a00>%date%</fc> <fc=#ff0000>%kbd%</fc> | <fc=#32CD32>%get-volume.sh%</fc> | %battery%| <fc=#ee9a00>Wifi:%wlp3s0b1wi%</fc>"
        }
 
