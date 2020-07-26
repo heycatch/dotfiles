@@ -30,7 +30,7 @@ case "$item" in
     echo "Create bin folder and copy layout_switch.sh and get-volume.sh scripts"
     mkdir ~/bin/
     cp layout_switch.sh ~/bin/
-    cp get-volume.sh ~/bin/
+    cp get_volume.sh ~/bin/
     echo "Installing xmonad libs"
     sudo apt install cabal-install
     sudo apt update

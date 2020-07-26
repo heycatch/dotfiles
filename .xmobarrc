@@ -15,6 +15,6 @@ Config { font = "xft:Inconsolata:size=8"
                     ]
        , sepChar = "%"
        , alignSep = "}{"
-       , template = "%StdinReader% }{ <fc=#ee9a00>%date%</fc> <fc=#ff0000>%kbd%</fc> | <fc=#32CD32>%get-volume.sh%</fc> | %battery%| <fc=#ee9a00>Wifi:%wlp3s0b1wi%</fc>"
+       , template = "%StdinReader% }{ <fc=#ee9a00>%date%</fc> <fc=#ff0000>%kbd%</fc> | <fc=#32CD32>%get_volume.sh%</fc> | %battery%| <fc=#ee9a00>Wifi:%wlp3s0b1wi%</fc>"
        }
 

@@ -15,6 +15,7 @@ mod+j or mod+tab - swap the current window and the next
 mod+k - swap the current window and the previous one
 mod+lmb(left mouse button) - moving the window with the mouse
 mod+rmb(right mouse button) - resizing the window with the mouse
+mod+space - change window position
 mod+q - reboot xmonad
 mod+F7 - -2 volume
 mod+F8 - +2 volume

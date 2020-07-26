@@ -13,7 +13,7 @@ xmonad $ defaultConfig
   , manageHook = manageDocks <+> manageHook defaultConfig
   , layoutHook = avoidStruts $ layoutHook defaultConfig
   , logHook = dynamicLogWithPP $ defaultPP { ppOutput = hPutStrLn xmproc, ppOrder = \(ws:_:t:_) -> [ws,t] }
-  , borderWidth = 3
+  , borderWidth = 2
   }
   `additionalKeys`
   [ ((mod1Mask, xK_Control_L), spawn "~/bin/layout_switch.sh")
