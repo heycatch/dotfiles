@@ -1,3 +1,6 @@
+Open-source for Windows:
+- ./for_windows.py
+
 Install vundle for vim and xmonad:
 - ./install.sh
 
