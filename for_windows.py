@@ -3,6 +3,8 @@ import webbrowser as wb
 
 
 wb.open_new_tab('https://github.com/FarGroup/FarManager')
+wb.open_new_tab('https://github.com/obsproject/obs-studio')
+wb.open_new_tab('https://github.com/x64dbg/x64dbg')
 wb.open_new_tab('https://github.com/processhacker/processhacker')
 wb.open_new_tab('https://github.com/wireshark/wireshark')
 wb.open_new_tab('https://github.com/pbatard/rufus')
