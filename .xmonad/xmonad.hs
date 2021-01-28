@@ -9,7 +9,7 @@ import Graphics.X11.ExtraTypes.XF86
 main = do
 xmproc <- spawnPipe "xmobar"
 xmonad $ defaultConfig
-  { terminal = "xterm"
+  { terminal = "gnome-terminal"
   , manageHook = manageDocks <+> manageHook defaultConfig
   , layoutHook = avoidStruts $ layoutHook defaultConfig
   , logHook = dynamicLogWithPP $ defaultPP { ppOutput = hPutStrLn xmproc, ppOrder = \(ws:_:t:_) -> [ws,t] }
