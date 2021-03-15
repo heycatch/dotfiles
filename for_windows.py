@@ -2,6 +2,7 @@
 import webbrowser as wb
 
 
+wb.open_new_tab('https://github.com/hiyohiyo/CrystalDiskInfo')
 wb.open_new_tab('https://github.com/FarGroup/FarManager')
 wb.open_new_tab('https://github.com/obsproject/obs-studio')
 wb.open_new_tab('https://github.com/x64dbg/x64dbg')
