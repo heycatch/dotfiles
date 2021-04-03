@@ -14,8 +14,12 @@ set nobackup
 set nowb
 set noswapfile
 
+"hotkeys
+map <silent> <C-t> :NERDTree<CR>
+let NERDTreeShowHidden=1
+
 "code::stats
-let g:codestats_api_key = 'KEY'
+let g:codestats_api_key='COPY_API_KEY'
 
 "VundleBundle
 set nocompatible
