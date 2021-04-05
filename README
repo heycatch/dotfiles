@@ -31,3 +31,16 @@ mod+F8 - +2 volume
 
 ## recompile and restart
 xmonad --recompile && xmonad --restart
+
+
+=== QEMU ===
+DOCUMENTATION:
+  https://qemu.readthedocs.io/en/latest/system/invocation.html
+
+Win10:
+  Don't forget install HAXM(only intel) for QEMU, amazing work.
+
+START:
+  qemu-img create -f qcow2 IMAGE.qcow2 50G
+  qemu-system-x86_64 -L "C:\Program Files\qemu" -hda IMAGE.qcow2 -boot d -cdrom FILE.iso -m 2G -accel hax -vga virtio
+  qemu-system-x86_64 -L "C:\Program Files\qemu" -hda IMAGE.qcow2 -m 2G -accel hax -vga virtio
