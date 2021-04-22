@@ -2,6 +2,7 @@
 import webbrowser as wb
 
 
+wb.open_new_tab('https://github.com/microsoft/terminal')
 wb.open_new_tab('https://github.com/intel/haxm')
 wb.open_new_tab('https://github.com/qemu/qemu')
 wb.open_new_tab('https://github.com/hiyohiyo/CrystalDiskInfo')
