@@ -23,3 +23,6 @@ start https://sourceforge.net/projects/vcxsrv
 start https://www.cpuid.com/softwares/cpu-z.html
 
 start https://docs.microsoft.com/en-us/sysinternals/downloads/debugview
+
+start https://ru.malwarebytes.com/
+start https://www.malwarebytes.com/adwcleaner/
