@@ -1,9 +1,9 @@
 Open-source and useful programs for Windows10:
-- double click on bat file
+* double click on bat file
 
 
 Install vundle for vim and xmonad:
-- ./install.sh
+* ./install.sh
 
 
 `hotkeys for xmonad`
@@ -35,13 +35,12 @@ xmonad --recompile && xmonad --restart
 
 
 === QEMU ===
-DOCUMENTATION:
-  https://qemu.readthedocs.io/en/latest/system/invocation.html
-
 Win10:
-  Don't forget install HAXM(only intel) for QEMU, amazing work.
+  * Don't forget install HAXM(only intel) for QEMU.
 
-START:
-  qemu-img create -f qcow2 IMAGE.qcow2 50G
-  qemu-system-x86_64 -L "C:\Program Files\qemu" -hda IMAGE.qcow2 -boot d -cdrom FILE.iso -m 2G -accel hax -vga virtio
-  qemu-system-x86_64 -L "C:\Program Files\qemu" -hda IMAGE.qcow2 -m 2G -accel hax -vga virtio
+Start:
+  * chagen .qcow2 and .iso filename
+  * documentation.bat
+  * create.bat
+  * image.bat
+  * start.bat
