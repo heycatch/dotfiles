@@ -17,10 +17,12 @@ start https://github.com/videolan/vlc
 start https://github.com/GNOME/gimp
 start https://github.com/QuiteRSS/quiterss
 start https://github.com/bleachbit/bleachbit
+start https://github.com/openhardwaremonitor/openhardwaremonitor
 
 start https://sourceforge.net/projects/jpegview
 start https://sourceforge.net/projects/vcxsrv
 
+start https://www.vim.org/download.php
 start https://docs.microsoft.com/en-us/sysinternals/downloads/debugview
 start https://www.cpuid.com/softwares/cpu-z.html
 start https://www.putty.org/
