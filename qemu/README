@@ -1,4 +1,3 @@
-=== QEMU ===
 Win10:
   * Don't forget install HAXM(only intel) for QEMU.
 

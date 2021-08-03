@@ -2,15 +2,18 @@ Open-source and useful programs for Windows10:
 * double click on bat file
 
 
-Install vundle for vim and xmonad:
+Install `vundle` for vim and xmonad:
 * ./install.sh
 
 
-`hotkeys for xmonad`
+Install with `apt`:
+* cd apt && sudo ./install.sh
 
-mod == alt
-==========
 
+== XMONAD SECTION ==
+
+`mod` == alt
+============
 
 ****
 mod+number(1-9) - switch to ~N desktop
@@ -29,18 +32,7 @@ mod+F7 - -2 volume
 mod+F8 - +2 volume
 ****
 
-
 ## recompile and restart
 xmonad --recompile && xmonad --restart
 
 
-=== QEMU ===
-Win10:
-  * Don't forget install HAXM(only intel) for QEMU.
-
-Start:
-  * chagen .qcow2 and .iso filename
-  * documentation.bat
-  * create.bat
-  * image.bat
-  * start.bat
