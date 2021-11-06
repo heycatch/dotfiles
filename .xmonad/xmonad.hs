@@ -16,7 +16,7 @@ xmonad $ defaultConfig
   , borderWidth = 2
   }
   `additionalKeys`
-  [ ((mod1Mask, xK_Control_L), spawn "~/bin/layout_switch.sh")
+  [ ((mod1Mask, xK_Control_L), spawn "~/.config/layout_switch.sh")
   , ((mod1Mask, xK_F7), spawn "amixer set Master 2- unmute")
   , ((mod1Mask, xK_F8), spawn "amixer set Master 2+ unmute")
   ]

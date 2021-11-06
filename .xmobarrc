@@ -11,7 +11,7 @@ Config { font = "xft:Sans-9:bold:size=8"
                     , Run Kbd [("us", "US"), ("ru", "RU")]
                     , Run Wireless "wlp3s0b1" ["-t", "<essid>"] 10
                     , Run Wireless "enp2s0f0" ["-t", "<essid>"] 10
-                    , Run Com "~/bin/get-volume.sh" [] "vol" 10
+                    , Run Com "~/.config/get_volume.sh" [] "vol" 10
                     ]
        , sepChar = "%"
        , alignSep = "}{"

@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/bash
 
 if [ $(which apt) ]; then
   echo "Checking updates and git..."
@@ -22,15 +22,11 @@ echo -n "Installing xmonad + dmenu? (y/n) "
 read item
 case "$item" in
   y|Y) echo "Installing..."
-    sudo apt install ghc
-    sudo apt install libx11-dev
-    sudo apt install xmonad
-    sudo apt install dmenu
+    sudo apt install ghc libx11-dev xmonad dmenu
     sudo sed -i s/dmenu/"dmenu -b"/2 /usr/bin/dmenu_run
     echo "Create bin folder and copy layout_switch.sh and get_volume.sh scripts"
-    mkdir ~/bin/
-    cp layout_switch.sh ~/bin/
-    cp get_volume.sh ~/bin/
+    cp layout_switch.sh ~/.config/
+    cp get_volume.sh ~/.config/
     echo "Installing xmonad libs"
     sudo apt install cabal-install
     sudo apt update
@@ -40,6 +36,6 @@ case "$item" in
   n|N) echo "Exit"
     exit 0
     ;;
-  *) echo "Default == no, exit now"
+  *) echo "Exit"
     ;;
 esac
