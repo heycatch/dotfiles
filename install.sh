@@ -27,7 +27,7 @@ case "$item" in
     sudo apt install xmonad
     sudo apt install dmenu
     sudo sed -i s/dmenu/"dmenu -b"/2 /usr/bin/dmenu_run
-    echo "Create bin folder and copy layout_switch.sh and get-volume.sh scripts"
+    echo "Create bin folder and copy layout_switch.sh and get_volume.sh scripts"
     mkdir ~/bin/
     cp layout_switch.sh ~/bin/
     cp get_volume.sh ~/bin/
