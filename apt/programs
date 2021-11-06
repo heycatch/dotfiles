@@ -1,7 +1,9 @@
+git
 htop
 tmux
 vim
 wget
+curl
 p7zip-full
 gparted
 rkhunter
