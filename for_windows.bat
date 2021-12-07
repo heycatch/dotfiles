@@ -25,8 +25,6 @@ start https://sourceforge.net/projects/jpegview
 start https://sourceforge.net/projects/vcxsrv
 
 start https://www.vim.org/download.php
-start https://docs.microsoft.com/en-us/sysinternals/downloads/debugview
-start https://www.cpuid.com/softwares/cpu-z.html
 start https://www.putty.org/
 start https://www.7-zip.org/
 
