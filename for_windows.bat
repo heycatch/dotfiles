@@ -18,6 +18,8 @@ start https://github.com/GNOME/gimp
 start https://github.com/QuiteRSS/quiterss
 start https://github.com/bleachbit/bleachbit
 start https://github.com/openhardwaremonitor/openhardwaremonitor
+start https://github.com/OpenVPN/openvpn
+start https://github.com/veracrypt/VeraCrypt
 
 start https://sourceforge.net/projects/jpegview
 start https://sourceforge.net/projects/vcxsrv
