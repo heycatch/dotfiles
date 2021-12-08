@@ -15,15 +15,18 @@ echo -n "Installing xmonad + dmenu? (y/n)"
 read item
 case "$item" in
   y | Y)
-    echo "Installing packages..."
-    sudo apt install ghc libx11-dev xmonad dmenu cabal-install
-    sudo cabal install xmonad-extras
-    sudo sed -i s/dmenu/"dmenu -b"/2 /usr/bin/dmenu_run
-    mkdir /home/$USER/bin
-    cp layout_switch.sh home/$USER/bin
-    cp get_volume.sh home/$USER/bin
-    echo -e "\e[3mOk...\e[0m"
-    echo "Everything is installed."
+    if [ $(which apt) ]; then
+      echo "Installing packages..."
+      sudo apt install ghc libx11-dev xmonad dmenu cabal-install
+      sudo cabal install xmonad-extras
+      sudo sed -i s/dmenu/"dmenu -b"/2 /usr/bin/dmenu_run
+      cp layout_switch.sh /home/$USER/.config
+      cp get_volume.sh /home/$USER/.config
+      echo -e "\e[3mOk...\e[0m"
+      echo "Everything is installed."
+    else
+      echo "Installing for only apt packages."
+    fi
     ;;
   n | N)
     echo "Exit now."
