@@ -1,9 +1,0 @@
-Win10:
-  * Don't forget install HAXM(only intel) for QEMU.
-
-Start:
-  * chagen .qcow2 and .iso filename
-  * documentation.bat
-  * create.bat
-  * image.bat
-  * start.bat

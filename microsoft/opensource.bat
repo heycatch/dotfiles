@@ -28,31 +28,26 @@ set str_forge=jpegview vcxsrv
 
 if %v% == 1 (
   for %%r in (%str_git%) do start %url_git%%%r
-  cls
-  goto start
 )
 
 if %v% == 2 (
   for %%r in (%str_forge%) do start %url_forge%%%r
-  cls
-  goto start
 )
 
 if %v% == 3 (
   start https://www.vim.org/download.php
   start https://www.putty.org/
   start https://www.7-zip.org/
-  cls
-  goto start
 )
 
 if %v% == 4 (
   start https://ru.malwarebytes.com/
   start https://www.malwarebytes.com/adwcleaner/
-  cls
-  goto start
 )
 
 if %v% == 5 (
   exit
 )
+
+cls
+goto start
