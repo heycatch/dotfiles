@@ -1,16 +1,17 @@
-"" Settings for gVim Windows 10
-"" Path: C:\Users\Username\_vimrc
-
+"" Path to config
+"" C:\Users\$username\_vimrc
 syntax on
 set shiftwidth=2
 set tabstop=2
 set number
 set expandtab
 set encoding=utf-8
-source $VIMRUNTIME/delmenu.vim
 set langmenu=ru_RU.UTF-8
+set backspace=2
+colorscheme torte
+source $VIMRUNTIME/delmenu.vim
 source $VIMRUNTIME/menu.vim
 
 if has("gui_win32")
-  set guifont=Consolas:h11:cANSI
+  set guifont=Consolas:h12:cANSI
 endif
