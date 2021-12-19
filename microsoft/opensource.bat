@@ -28,8 +28,8 @@ set str_forge=jpegview vcxsrv
 
 if %v% == 1 (
   for %%r in (%str_git%) do start %url_git%%%r
-	cls
-	goto start
+  cls
+  goto start
 )
 
 if %v% == 2 (
