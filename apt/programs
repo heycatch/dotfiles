@@ -1,3 +1,4 @@
+build-essential
 git
 htop
 tmux
@@ -7,3 +8,4 @@ curl
 p7zip-full
 gparted
 rkhunter
+deborphan
