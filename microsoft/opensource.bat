@@ -17,7 +17,7 @@ hiyohiyo/CrystalDiskInfo FarGroup/FarManager ^
 obsproject/obs-studio x64dbg/x64dbg ^
 processhacker/processhacker wireshark/wireshark ^
 pbatard/rufus qbittorrent/qBittorrent ^
-transmission/transmission keepassx/keepassx ^
+transmission/transmission keepassxreboot/keepassxc ^
 Eloston/ungoogled-chromium sumatrapdfreader/sumatrapdf ^
 videolan/vlc GNOME/gimp QuiteRSS/quiterss ^
 bleachbit/bleachbit openhardwaremonitor/openhardwaremonitor ^
