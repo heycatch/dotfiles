@@ -12,6 +12,9 @@ set ffs=unix,dos,mac
 set nobackup
 set nowb
 set noswapfile
+# When i open vim it starts with 'replace mode'.
+# Comment out this option on the wsl2.
+set t_u7=
 
 map <silent> <C-t> :NERDTree<CR>
 let NERDTreeShowHidden=1
