@@ -21,7 +21,7 @@ transmission/transmission keepassxreboot/keepassxc ^
 Eloston/ungoogled-chromium sumatrapdfreader/sumatrapdf ^
 videolan/vlc GNOME/gimp QuiteRSS/quiterss ^
 bleachbit/bleachbit openhardwaremonitor/openhardwaremonitor ^
-OpenVPN/openvpn veracrypt/VeraCrypt
+OpenVPN/openvpn veracrypt/VeraCrypt GNOME/dia
 
 set url_forge=https://sourceforge.net/projects/
 set str_forge=jpegview vcxsrv
