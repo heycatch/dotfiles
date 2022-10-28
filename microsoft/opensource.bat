@@ -39,6 +39,7 @@ if %v% == 3 (
   start https://www.vim.org/download.php
   start https://www.putty.org/
   start https://www.7-zip.org/
+  start https://ru.libreoffice.org/
 )
 
 if %v% == 4 (
