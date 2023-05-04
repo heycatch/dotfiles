@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Script to display the current language layout.
 if [[ -n "$1" ]]; then
   setxkbmap $1
 else
