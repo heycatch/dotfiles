@@ -1,3 +1,10 @@
-PATH:
+Chromium:
+https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html
+ - select platform.
+ - filter inside by `Last Modified`.
+ - read `LAST_CHANGE`, copy commit.
+ - paste in `Filter`, download and install.
+
+Gvim path:
  - C:\Users\$USER\_vimrc
  - C:\Users\$USER\.wlsconfig

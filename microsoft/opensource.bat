@@ -12,15 +12,15 @@ echo ---------------
 set /p v=Enter value: 
 
 set url_git=https://github.com/
-set str_git=microsoft/terminal intel/haxm qemu/qemu ^
+set str_git=microsoft/terminal qemu/qemu ^
 hiyohiyo/CrystalDiskInfo FarGroup/FarManager ^
 obsproject/obs-studio x64dbg/x64dbg ^
 processhacker/processhacker wireshark/wireshark ^
 pbatard/rufus qbittorrent/qBittorrent ^
 transmission/transmission keepassxreboot/keepassxc ^
-Eloston/ungoogled-chromium sumatrapdfreader/sumatrapdf ^
-videolan/vlc GNOME/gimp QuiteRSS/quiterss ^
-bleachbit/bleachbit openhardwaremonitor/openhardwaremonitor ^
+sumatrapdfreader/sumatrapdf videolan/vlc GNOME/gimp ^
+QuiteRSS/quiterss bleachbit/bleachbit ^
+openhardwaremonitor/openhardwaremonitor ^
 OpenVPN/openvpn veracrypt/VeraCrypt GNOME/dia
 
 set url_forge=https://sourceforge.net/projects/
