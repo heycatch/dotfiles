@@ -1,0 +1,11 @@
+{
+    "workbench.startupEditor": "none",
+    "editor.tabSize": 2,
+    "gopls": {},
+    "[go]": {
+        "editor.formatOnSave": false,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": false,
+        }
+    },
+}
