@@ -5,7 +5,18 @@
     "[go]": {
         "editor.formatOnSave": false,
         "editor.codeActionsOnSave": {
-            "source.organizeImports": false,
+            "source.organizeImports": false
         }
     },
+    "update.showReleaseNotes": false,
+    "editor.fontSize": 15,
+    "redhat.telemetry.enabled": false,
+    "java.jdt.ls.java.home": "/usr/lib/jvm/jdk-20.0.1",
+    "java.configuration.runtimes": [
+       {
+        "name": "JavaSE-20",
+        "path": "/usr/lib/jvm/jdk-20.0.1",
+        "default": true
+       }
+    ]
 }
