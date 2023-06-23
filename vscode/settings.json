@@ -11,11 +11,11 @@
     "update.showReleaseNotes": false,
     "editor.fontSize": 15,
     "redhat.telemetry.enabled": false,
-    "java.jdt.ls.java.home": "/usr/lib/jvm/jdk-20.0.1",
+    "java.jdt.ls.java.home": "/usr/lib/jvm/java-17-openjdk-amd64",
     "java.configuration.runtimes": [
        {
-        "name": "JavaSE-20",
-        "path": "/usr/lib/jvm/jdk-20.0.1",
+        "name": "JavaSE-17",
+        "path": "/usr/lib/jvm/java-17-openjdk-amd64",
         "default": true
        }
     ]
