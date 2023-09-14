@@ -36,7 +36,6 @@ if %v% == 2 (
 )
 
 if %v% == 3 (
-  start https://1.1.1.1/
   start https://www.vim.org/download.php
   start https://www.putty.org/
   start https://www.7-zip.org/
