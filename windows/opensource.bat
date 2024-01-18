@@ -13,8 +13,8 @@ echo ---------------
 set /p v=Enter value: 
 
 set str_chromium=erkserkserks/h264ify ^
-gorhill/uBlock ^ EFForg/privacybadger ^
-hackademix/noscript ^ Tampermonkey/tampermonkey ^
+gorhill/uBlock EFForg/privacybadger ^
+hackademix/noscript Tampermonkey/tampermonkey ^
 ilyhalight/voice-over-translation
 
 set url_git=https://github.com/
