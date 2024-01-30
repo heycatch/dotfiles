@@ -28,7 +28,7 @@ sumatrapdfreader/sumatrapdf videolan/vlc GNOME/gimp ^
 QuiteRSS/quiterss bleachbit/bleachbit ^
 openhardwaremonitor/openhardwaremonitor ^
 OpenVPN/openvpn veracrypt/VeraCrypt GNOME/dia ^
-flameshot-org/flameshot
+flameshot-org/flameshot sandboxie-plus/Sandboxie
 
 set url_forge=https://sourceforge.net/projects/
 set str_forge=jpegview vcxsrv
