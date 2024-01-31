@@ -3,7 +3,7 @@ title opensource and malwarebytes
 
 :start
 echo ---------------
-echo 1: chromium extensions
+echo 1: chromium/firefox extensions
 echo 2: github
 echo 3: sourceforge
 echo 4: other
