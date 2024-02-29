@@ -12,10 +12,10 @@ echo 6: exit
 echo ---------------
 set /p v=Enter value: 
 
-set str_chromium=erkserkserks/h264ify ^
+set str_browser=erkserkserks/h264ify ^
 gorhill/uBlock EFForg/privacybadger ^
 hackademix/noscript Tampermonkey/tampermonkey ^
-ilyhalight/voice-over-translation
+ilyhalight/voice-over-translation ClearURLs/Addon
 
 set url_git=https://github.com/
 set str_git=microsoft/terminal qemu/qemu ^
@@ -34,7 +34,7 @@ set url_forge=https://sourceforge.net/projects/
 set str_forge=jpegview vcxsrv
 
 if %v% == 1 (
-  for %%r in (%str_chromium%) do start %url_git%%%r
+  for %%r in (%str_browser%) do start %url_git%%%r
 )
 
 if %v% == 2 (
