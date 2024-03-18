@@ -1,4 +1,6 @@
 syntax on
+
+set visualbell
 set shiftwidth=2
 set tabstop=2
 set number
@@ -8,10 +10,10 @@ set t_Co=256
 set hlsearch
 set incsearch
 set encoding=utf-8
+set fileencoding=utf-8
 set ffs=unix,dos,mac
 set nobackup
-set nowb
-set noswapfile
+set ignorecase
 " Remove `replace` at the start.
 " If there is no error, then comment out the parameter.
 set t_u7=
