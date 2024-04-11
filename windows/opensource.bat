@@ -15,7 +15,8 @@ set /p v=Enter value:
 set str_browser=erkserkserks/h264ify ^
 gorhill/uBlock EFForg/privacybadger ^
 hackademix/noscript Tampermonkey/tampermonkey ^
-ilyhalight/voice-over-translation ClearURLs/Addon
+ilyhalight/voice-over-translation ClearURLs/Addon ^
+sienori/simple-translate
 
 set url_git=https://github.com/
 set str_git=microsoft/terminal qemu/qemu ^
