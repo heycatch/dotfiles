@@ -1,6 +1,7 @@
 {
     "workbench.startupEditor": "none",
     "editor.tabSize": 2,
+    "editor.fontLigatures": true,
     "gopls": {},
     "[go]": {
         "editor.formatOnSave": false,
