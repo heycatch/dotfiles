@@ -1,6 +1,7 @@
 {
     "workbench.startupEditor": "none",
     "editor.tabSize": 2,
+    "editor.fontFamily": "JetBrains Mono",
     "editor.fontLigatures": true,
     "gopls": {},
     "[go]": {
