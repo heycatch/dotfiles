@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=IntelliJ IDEA
+Icon=/opt/idea/bin/idea.svg
+Exec=/opt/idea/bin/idea.sh
+Comment=Capable and Ergonomic IDE for JVM
+Categories=Development;IDE;
+StartupWMClass=jetbrains-idea
+Path=/opt/idea/bin/
