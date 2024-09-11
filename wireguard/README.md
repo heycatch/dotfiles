@@ -43,4 +43,9 @@ ip link delete dev wg0
 ip addr # Проверить удаление.
 systemctl restart wg-quick@wg0
 systemctl status wg-quick@wg0 # Проверить перезапуск.
+
+# Запуск на клиенте (Debian).
+# Перенести конфиг в /etc/wireguard/.
+sudo wg-quick up wg0
+sudo wg-quick down wg0
 ```
