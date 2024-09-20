@@ -28,6 +28,9 @@ ufw allow 22/tcp
 ufw allow 1337/udp
 ufw status # Проверить все порты.
 
+# В файле wg0.conf строчки PostUp/PostDown имя eth0 нужно заменить на свое.
+# Узнать его можно с помощью команды ip addr.
+
 # Запускаем сервис.
 systemctl enable wg-quick@wg0
 systemctl start wg-quick@wg0
@@ -46,6 +49,6 @@ systemctl status wg-quick@wg0 # Проверить перезапуск.
 
 # Запуск на клиенте (Debian).
 # Перенести конфиг в /etc/wireguard/.
-sudo wg-quick up wg0
-sudo wg-quick down wg0
+sudo wg-quick up wg1
+sudo wg-quick down wg1
 ```
