@@ -19,7 +19,10 @@ set ignorecase
 set t_u7=
 
 map <silent> <C-t> :NERDTree<CR>
-let NERDTreeShowHidden=1
+" =0 - показывает только обычные файлы.
+" =1 - показывает обычные + скрытые файлы.
+" =2 - показывает только скрытые файлы.
+let NERDTreeShowHidden=0
 
 set nocompatible
 filetype off
