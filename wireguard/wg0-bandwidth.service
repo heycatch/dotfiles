@@ -1,0 +1,12 @@
+[Unit]
+Description=WireGuard wg0 BandWitdth Control
+After=network-online.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/sbin/tc qdisc del dev wg0 root
+ExecStart=/usr/sbin/tc qdisc add dev wg0 root tbf rate 10mbit burst 15k latency 50ms
+
+[Install]
+WantedBy=multi-user.target
