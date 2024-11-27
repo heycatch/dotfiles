@@ -1,7 +1,7 @@
 Инструкция к Debian >= **12** версии. \
 Это означает, что на вторую половину **2024** года эти версии нуждаются в включении *backports* для стабильных пакетов. \
-В документации можно увидеть пометку об [этом](https://www.wireguard.com/install/).
-* bookworm-backports.list -> /etc/apt/source.list.d/
+В документации можно увидеть пометку об [этом](https://www.wireguard.com/install/). \
+Для особо тупых: переместить файл **bookworm-backports.list** на сервер в папку */etc/apt/sources.list.d/*.
 
 Но можно и пропустить это предисловие, на домашней пустой впс'ке ничего страшного не произойдет. \
 Инструкция подойдет и для Ubuntu.
@@ -26,6 +26,11 @@ sysctl -p
 ufw enable
 ufw allow 22/tcp
 ufw allow 1337/udp
+ufw status # Проверить все порты.
+# Убираем доступ к определенному порту.
+ufw status numbered # Находим нужную цифру.
+ufw delete 1 # Заменить на свою цифру.
+ufw reload
 ufw status # Проверить все порты.
 
 # Немного о wg0.conf:
