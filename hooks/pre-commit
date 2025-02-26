@@ -1,0 +1,4 @@
+#!/bin/bash
+# path: .git/hooks/pre-commit
+# the file should already ignore unnecessary folders and files
+flake8 --config=config.cfg
