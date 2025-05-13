@@ -1,0 +1,2 @@
+LXQT X11 FIX:
+  sudo mv 20-monitors.conf /etc/X11/xorg.conf.d/
